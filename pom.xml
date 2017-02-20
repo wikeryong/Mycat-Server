@@ -493,7 +493,7 @@
 										</property>
 										<property>
 											<name>wrapper.logfile</name>
-											<value>logs/wrapper.log</value>
+											<value>logs/wrapper1.log</value>
 										</property>
 									</configuration>
 

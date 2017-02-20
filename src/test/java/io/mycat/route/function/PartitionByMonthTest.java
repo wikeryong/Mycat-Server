@@ -85,4 +85,15 @@ public class PartitionByMonthTest {
 		Assert.assertEquals(true, 11 == partition.calculate("2016-12-31"));
 
 	}
+
+	@Test
+	public void wikerTest()  {
+		PartitionByMonth partition = new PartitionByMonth();
+
+		partition.setDateFormat("yyyy-MM-dd");
+		partition.setsBeginDate("2016-01-01");
+		partition.init();
+		System.out.println(partition.calculate("2020-01-01"));
+		System.out.println(partition.calculate("2020-01-01"));
+	}
 }
